@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:simplemenuapp/home.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dynamic Menu',
+      title: 'Menu App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
